@@ -12,6 +12,9 @@
     margin: 10px auto 0px;
 }
 
+
+/* header */
+
 .header {
 	border-bottom: 0.3px solid #46A358;
 	font-size: 16px;
@@ -73,24 +76,38 @@
 	padding-right: 2px;
 }
 
+/* header */
+
+
+/* main */
 
 .planet {
-	display: inline-block;
-	vertical-align: middle;
+	width: 1185px;
 	color: #3D3D3D;
-	background-color: #ffffff;
+	background-color: #f5f5f5;
 	text-decoration: none;
-	
+	margin-top: 5px;
 }
 
 .planet-info {
+	display: inline-block;
+	vertical-align: top;
 	width: 621px;
 	padding-top: 68px;
+	padding-bottom: 50px;
+	height: 495px;
 	
 }
 
 .flowers-vs-planet {
-	width: 450px;
+	display: inline-block;
+	vertical-align: bottom;
+	padding-left: 51px;
+}
+.flowers-vs-planet img {
+   width: 507px;
+   height: 446px;
+
 }
 
 .text1 {

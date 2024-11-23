@@ -9,29 +9,116 @@
 
 .wrapper {
     width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto 0px;
 }
+
+.header {
+	border-bottom: 0.3px solid #46A358;
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.logo {
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #46A358;
+}
+.logo img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
 
 .menu {
     display: inline-block;
     vertical-align: top;
+	 margin-left: 200px;
 }
 
 .menu li {
     display: inline-block;
     vertical-align: top;
+	 padding: 0px 50px 0px 0px;
 }
 
 .menu a {
-    font-size: 18px;
-    color: red;
     text-decoration: none;
     padding-bottom: 10px;
+	 color: #3D3D3D;
 }
 
 .menu a:hover {
-    /* font-weight: bold; */
+    font-weight: bold;
     border-bottom: 3px solid green;
+}
+
+.button-logout {
+	width: 100px;
+	border: 1px solid #46A358;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background-color: #46A358;
+	color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 285px;
+	
+}
+
+.button-logout img {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 2px;
+}
+
+
+.planet {
+	display: inline-block;
+	vertical-align: middle;
+	color: #3D3D3D;
+	background-color: #ffffff;
+	text-decoration: none;
+	
+}
+
+.planet-info {
+	width: 621px;
+	padding-top: 68px;
+	
+}
+
+.flowers-vs-planet {
+	width: 450px;
+}
+
+.text1 {
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-left: 43px;
+}
+
+.text2 {
+	font-size: 14px;
+	padding-left: 43px;
+}
+
+.title {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 70px;
+	color: #3D3D3D;
+	font-weight: bold;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	padding-left: 40px;
+}
+
+.title span {
+	text-transform: uppercase;
+	font-size: 70px;
+	color: #46A358;
 }
 
 .shop-now-link {
@@ -46,6 +133,13 @@
     display: inline-block;
     vertical-align: top;
     padding: 10px 26px;
+	 margin-top: 44px;
 }
+
+.planet-info a {
+	margin-left: 41px;
+}
+
+
 
 

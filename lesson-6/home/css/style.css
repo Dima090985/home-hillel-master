@@ -18,19 +18,11 @@
 .header {
 	border-bottom: 0.3px solid #46A358;
 	font-size: 16px;
-	display: inline-block;
-	vertical-align: top;
 }
 
 .logo {
-	text-decoration: none;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #46A358;
-}
-.logo img {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 
@@ -53,21 +45,19 @@
 }
 
 .menu a:hover {
-    font-weight: bold;
     border-bottom: 3px solid green;
+	 padding-bottom: 15px;
 }
 
 .button-logout {
-	width: 100px;
 	border: 1px solid #46A358;
 	border-radius: 5px;
-	padding: 5px 10px;
+	padding: 6.5px 22px;
 	background-color: #46A358;
 	color: #ffffff;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 285px;
-	
+	margin-left: 291px;
 }
 
 .button-logout img {
@@ -82,7 +72,6 @@
 /* main */
 
 .planet {
-	width: 1185px;
 	color: #3D3D3D;
 	background-color: #f5f5f5;
 	text-decoration: none;
@@ -95,7 +84,6 @@
 	width: 621px;
 	padding-top: 68px;
 	padding-bottom: 50px;
-	height: 495px;
 	
 }
 

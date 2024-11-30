@@ -9,8 +9,7 @@
 	
 }
 .wrapper {
-	max-width: 1200px;
-	min-width: 991px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -51,11 +50,18 @@
 
 /*              section-2                           */
 
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
 
+.right {
+	width: 840px;
+	float: right;
+}
 
 .menu-right {
-	width: 838px;
-	float: right;
 	font-size: 15px;
 	color: #3D3D3D;
 
@@ -68,9 +74,12 @@
 }
 
 .choice {
-	float: left;
+	display: inline-block;
+	vertical-align: top;
+	
 }
 .choice-menu {
+	float: left;
 	padding-left: 0px;
 }
 
@@ -105,17 +114,8 @@
 	font-size: 15px;
 }
 
-
-
-.right-box {
-	width: 840px;
-	float: right;
-	margin-top: 31px;
-}
-
 .cards {
 	width: 258px;
-	
 	float: left;
 	margin-right: 33px;
 	margin-bottom: 70px;
@@ -151,18 +151,6 @@
 	margin-right: 0px;
 }
 
-.clearfix-right::after {
-	content: '';
-	display: table;
-	clear: both;
-}
-
-.page {
-	width: 840px;
-	float: right;
-	
-
-}
 
 .page a:hover {
 	color: #ffffff;

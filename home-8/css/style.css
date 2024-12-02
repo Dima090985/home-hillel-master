@@ -140,15 +140,13 @@
 }
 .box-posts-title a:hover {
 	color: #46A358;
-	
-
 }
 .box-posts-title img {
 	display: inline-block;
 	vertical-align: middle;
 }
 .box-posts-title img:hover {
-	background-image: url(../img/arrow\ -\ right\ green.svg);
+	background-image: url(../img/arrowbottom\ green.svg);
 	color: #46A358;
 }
 

@@ -1,0 +1,472 @@
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-RegularItalic.eot');
+	src: local('Cera Pro Regular Italic'), local('CeraPro-RegularItalic'),
+		 url('CeraPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-RegularItalic.woff2') format('woff2'),
+		 url('CeraPro-RegularItalic.woff') format('woff'),
+		 url('CeraPro-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-BlackItalic.eot');
+	src: local('Cera Pro Black Italic'), local('CeraPro-BlackItalic'),
+		 url('CeraPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-BlackItalic.woff2') format('woff2'),
+		 url('CeraPro-BlackItalic.woff') format('woff'),
+		 url('CeraPro-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-Medium.eot');
+	src: local('Cera Pro Medium'), local('CeraPro-Medium'),
+		 url('CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-Medium.woff2') format('woff2'),
+		 url('CeraPro-Medium.woff') format('woff'),
+		 url('CeraPro-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-BoldItalic.eot');
+	src: local('Cera Pro Bold Italic'), local('CeraPro-BoldItalic'),
+		 url('CeraPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-BoldItalic.woff2') format('woff2'),
+		 url('CeraPro-BoldItalic.woff') format('woff'),
+		 url('CeraPro-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-ThinItalic.eot');
+	src: local('Cera Pro Thin Italic'), local('CeraPro-ThinItalic'),
+		 url('CeraPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-ThinItalic.woff2') format('woff2'),
+		 url('CeraPro-ThinItalic.woff') format('woff'),
+		 url('CeraPro-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-LightItalic.eot');
+	src: local('Cera Pro Light Italic'), local('CeraPro-LightItalic'),
+		 url('CeraPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-LightItalic.woff2') format('woff2'),
+		 url('CeraPro-LightItalic.woff') format('woff'),
+		 url('CeraPro-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-Black.eot');
+	src: local('Cera Pro Black'), local('CeraPro-Black'),
+		 url('CeraPro-Black.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-Black.woff2') format('woff2'),
+		 url('CeraPro-Black.woff') format('woff'),
+		 url('CeraPro-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-Bold.eot');
+	src: local('Cera Pro Bold'), local('CeraPro-Bold'),
+		 url('CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-Bold.woff2') format('woff2'),
+		 url('CeraPro-Bold.woff') format('woff'),
+		 url('CeraPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-Regular.eot');
+	src: local('Cera Pro Regular'), local('CeraPro-Regular'),
+		 url('CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-Regular.woff2') format('woff2'),
+		 url('CeraPro-Regular.woff') format('woff'),
+		 url('CeraPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cera Pro';
+	src: url('CeraPro-Thin.eot');
+	src: local('Cera Pro Thin'), local('CeraPro-Thin'),
+		 url('CeraPro-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('CeraPro-Thin.woff2') format('woff2'),
+		 url('CeraPro-Thin.woff') format('woff'),
+		 url('CeraPro-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+.body {
+	font-family: "Cera Pro", "Arial", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	
+}
+
+.img-banner .img-cards{
+	max-width: 100%;
+	height: auto;
+}
+.wrapper {
+	max-width: 1220px;
+	min-width: 991px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+/*                  header                            */
+
+
+.header {
+	padding-top: 25px;
+	padding-bottom: 46px;
+}
+
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 0.3px solid #46A358;
+	padding-bottom: 25px;
+}
+
+.logoleft a{
+	display: flex;
+	text-decoration: none;
+}
+
+.menu-centr ul{
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+}
+.menu-centr li{
+	padding: 0 25px;
+}
+
+.menu-centr a{
+	text-decoration: none;
+	color: #3d3d3d;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.menu-centr a:hover {
+	border-bottom: 3px solid #46A358;
+	font-weight: bold;
+	padding-bottom: 32px;
+}
+
+.logoright div {
+	display: flex;
+	align-content: center;
+}
+.logoright button {
+	border: 1px solid #46A358;
+	border-radius: 3px;
+	background-color: #46A358;
+	color: #ffffff;
+}
+.logoright a {
+	text-decoration: none;
+	padding: 0 15px;
+}
+
+.logoright button img {
+	display: inline-block;
+	vertical-align: middle;
+   padding: 0 5px;
+}
+/*                       section next                        */
+.box {
+	background-color: #f5f5f5;
+}
+.header-box {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 12px;
+	
+}
+.box-text-silk{
+	width: 537px;
+	padding-left: 40px;
+	list-style: none;
+}
+.box-text-silk h3{
+	font-weight: 500;
+	font-size: 14px;
+	color: #3d3d3d;
+	padding-top: 68px;
+	text-transform: uppercase;
+}
+
+.box-text-silk h1{
+	font-weight: 900;
+	font-size: 50px;
+	text-transform: uppercase;
+	padding: 5px 0;
+}
+
+.box-text-silk h1 span{
+	color: #46A358;
+}
+
+.box-text-silk p{
+	color: #3d3d3d;
+	font-size: 14px;
+}
+
+.box-text-silk a{
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	border: 1px solid #46A358;
+	border-radius: 6px;
+	background-color: #46A358;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 10px 27px;
+	margin-top: 44px;
+	margin-bottom: 85px;
+}
+
+/*                         main                             */
+
+
+.main{
+	display: flex;
+	justify-content: space-between;
+}
+/*                       section next                        */
+.main-menu {
+	width: 285px;
+	background-color: #fbfbfb;
+}
+
+.menu-left {
+	padding-left: 0px;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: 700;
+	font-weight: bold;
+	padding-left: 16.5px;
+}
+
+.box-text-menu .title{
+	padding-top: 14px;
+	padding-bottom: 7px;
+}
+.menu-left li {
+	list-style: none;
+}
+.menu-left a {
+	text-decoration: none;
+	color: #3D3D3D;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 27.8px;
+}
+
+.menu-left a:hover {
+	color: #46A358;
+}
+
+/*                   section next                      */
+
+
+.box-price {
+	padding-top: 36px;
+	padding-bottom: 46px;
+}
+.line {
+	display: inline-flex;
+	vertical-align: middle;
+	padding-left: 27.8px;
+	padding-top: 29px;
+	padding-bottom: 21px;
+}
+/* .line::before {
+	content: '';
+	background-image: url(../img/line2.svg);
+	background-position: left, center;
+} */
+
+.price {
+	padding-left: 27.8px;
+	padding-bottom: 16px;
+	font-size: 15px;
+}
+
+.price span{
+	color: #46A358;
+	font-weight: bold;
+}
+
+.box-price button{
+	border: 1px solid #46A358;
+	border-radius: 6px;
+	background-color: #46A358;
+	color: #ffffff;
+	padding: 8px 23px;
+	margin-left: 27.8px;
+}
+/*                   section next                      */
+
+.form {
+	font-size: 15px;
+	font-weight: 400;
+	padding-left: 27.8px;
+	padding-top: 16px;
+	padding-bottom: 15px;
+	color: #3d3d3d;
+}
+.form label input{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 9px;
+}
+
+.form p {
+	display: flex;
+	justify-content: space-between; 
+	margin: 15px 0;
+}
+
+
+/*              main-menu-top-right                     */
+
+/*                   section                           */
+/* 
+.main-menu-top-right {
+width: 100%;
+} */
+
+.menu-top {
+	display: flex;
+	justify-content: space-between;
+	font-size: 15px;
+	color: #3D3D3D;
+
+}
+
+.choice a:hover {
+	color: #46A358;
+	border-bottom: 3px solid #46A358;
+	padding-bottom: 7px;
+}
+
+.choice-menu {
+	padding-left: 0px;
+}
+
+.choice-menu li {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+.choice-menu a {
+	text-decoration: none;
+	color: #3D3D3D;
+}
+
+.sorting {
+	display: flex;
+}
+.sorting p {
+	font-size: 15px;
+	color: #3D3D3D;
+}
+
+.sorting button {
+	border: none;
+	background-color: white;
+}
+.sorting button img {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+/*                   section next                      */
+
+.right-box {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+	margin-top: 31px;
+	height: 100%;
+
+}
+.cards {
+	width: 33.3%;
+	padding: 0 10px;
+	background-color: #ffffff;
+}
+
+.cards-elem{
+	height: 100%;
+}
+
+
+.cards h2 {
+	display: flex;
+	color: #3D3D3D;
+	font-weight: normal;
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+
+.cards p {
+	color: #46A358;
+	font-weight: bold;
+	margin-top: 0px;
+}

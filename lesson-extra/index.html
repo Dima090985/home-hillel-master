@@ -6,38 +6,32 @@
     <title>lesson-extra</title>
     <link rel="stylesheet" href="css/stayle.css" />
   </head>
-  <body>
+  <body class="body">
     <div class="wrapper">
       <header class="header">
         <section class="header-menu">
-          <article class="logoleft">
+          <a href="#">
+            <img src="img/logo.svg" alt="vector" />
+          </a>
+          <ul class="menu-centr">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Plant Care</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+          <div class="logoright">
             <a href="#">
-              <img src="img/vector.svg" alt="vector" />
-              <img src="img/group.svg" alt="group" />
+              <img src="img/dandruff.svg" alt="dandruff" />
             </a>
-          </article>
-          <article class="menu-centr">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="#">Plant Care</a></li>
-              <li><a href="#">Blogs</a></li>
-            </ul>
-          </article>
-          <article class="logoright">
-            <div>
-              <a href="#">
-                <img src="img/dandruff.svg" alt="dandruff" />
-              </a>
-              <a href="#">
-                <img src="img/basket.svg" alt="basket" />
-              </a>
-              <button type="button">
-                <img src="img/logout.svg" alt="logout" />
-                Login
-              </button>
-            </div>
-          </article>
+            <a class="basket-count" href="#">
+              <img src="img/basket.svg" alt="basket" />
+              <span class="count">6</span>
+            </a>
+            <button type="button">
+              <img src="img/logout.svg" alt="logout" />
+              Login
+            </button>
+          </div>
         </section>
 
         <section class="box">
@@ -53,11 +47,16 @@
               <a href="#">Shop Now</a>
             </div>
             <div class="flower">
-              <img src="img/flowerbox.png" alt="flower" />
+              <img
+                class="img-responsive"
+                src="img/flowerbox.png"
+                alt="flower"
+              />
             </div>
           </div>
         </section>
       </header>
+
       <main class="main">
         <div class="main-menu">
           <section class="box-text-menu">
@@ -120,36 +119,18 @@
             </ul>
           </section>
 
-          <section class="box-price">
+          <!-- <section class="box-price">
             <h2 class="title">Price Range</h2>
             <p class="line">
-              <!-- <svg
-                width="193"
-                height="4"
-                viewBox="0 0 193 4"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <line
-                  x1="2.17725"
-                  y1="2"
-                  x2="190.322"
-                  y2="2"
-                  stroke="#46A358"
-                  stroke-opacity="0.2"
-                  stroke-width="4"
-                  stroke-linecap="round"
-                />
-              </svg> -->
               <img src="img/ellipse.svg" alt="ellipse" />
               <img src="img/line.svg" alt="line" />
               <img src="img/ellipse.svg" alt="ellipse" />
             </p>
             <p class="price">Price: <span>$39 - $1230</span></p>
             <button type="button">Filter</button>
-          </section>
+          </section> -->
 
-          <section class="size">
+          <!-- <section class="size">
             <h2 class="title">Size</h2>
             <form class="form" action="#">
               <p>
@@ -165,10 +146,10 @@
                 <span class="input-namber">(78)</span>
               </p>
             </form>
-          </section>
+          </section> -->
 
           <div class="img-banner">
-            <img src="img/banner.jpg" alt="banner" />
+            <img class="img-responsive" src="img/banner.jpg" alt="banner" />
           </div>
         </div>
 
@@ -182,10 +163,9 @@
               </ul>
             </div>
             <div class="sorting">
-              <p>Short by:</p>
+              <p>Short by: Default sorting</p>
               <button class="button" type="button">
-                Default sorting
-                <img src="img/Arrow - Down.png" alt="sort" />
+                <img src="img/arrowdown.svg" alt="sort" />
               </button>
             </div>
           </section>
@@ -194,85 +174,438 @@
             <article class="cards">
               <div class="cards-elem">
                 <div>
-                  <img class="img-cards" src="img/card1.svg" alt="card" />
+                  <img
+                    class="img-responsive"
+                    class="img-cards"
+                    src="img/card1.png"
+                    alt="card"
+                  />
                 </div>
                 <h2>Barberton Daisy</h2>
                 <p>$119.00</p>
+                <ul class="box-share">
+                  <li>
+                    <button type="button">
+                      <img src="img/basketgreen2.svg" alt="basket" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/heart.svg" alt="like" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/dandruff.svg" alt="dandruff2" />
+                    </button>
+                  </li>
+                </ul>
               </div>
             </article>
             <article class="cards">
               <div class="cards-elem">
                 <div>
-                  <img class="img-cards" src="img/card2.svg" alt="card" />
+                  <img
+                    class="img-responsive"
+                    class="img-cards"
+                    src="img/card2.png"
+                    alt="card"
+                  />
                 </div>
                 <h2>Angel Wing Begonia</h2>
                 <p>$169.00</p>
+                <ul class="box-share">
+                  <li>
+                    <button type="button">
+                      <img src="img/basketgreen2.svg" alt="basket" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/heart.svg" alt="like" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/dandruff.svg" alt="dandruff2" />
+                    </button>
+                  </li>
+                </ul>
               </div>
             </article>
             <article class="cards">
               <div class="cards-elem">
                 <div>
-                  <img class="img-cards" src="img/card3.svg" alt="card" />
+                  <img
+                    class="img-responsive"
+                    class="img-cards"
+                    src="img/card3.png"
+                    alt="card"
+                  />
                 </div>
                 <h2>African Violet</h2>
                 <p>$199.00</p>
+                <ul class="box-share">
+                  <li>
+                    <button type="button">
+                      <img src="img/basketgreen2.svg" alt="basket" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/heart.svg" alt="like" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/dandruff.svg" alt="dandruff2" />
+                    </button>
+                  </li>
+                </ul>
+                <span class="sale">13% OFF</span>
               </div>
             </article>
-            <article class="cards padding">
+            <article class="cards">
               <div class="cards-elem">
                 <div>
-                  <img class="img-cards" src="img/card4.svg" alt="card" />
+                  <img
+                    class="img-responsive"
+                    class="img-cards"
+                    src="img/card4.png"
+                    alt="card"
+                  />
                 </div>
                 <h2>Beach Spider Lily</h2>
                 <p>$129.00</p>
+                <ul class="box-share">
+                  <li>
+                    <button type="button">
+                      <img src="img/basketgreen2.svg" alt="basket" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/heart.svg" alt="like" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/dandruff.svg" alt="dandruff2" />
+                    </button>
+                  </li>
+                </ul>
               </div>
             </article>
-            <article class="cards padding">
+            <article class="cards">
               <div class="cards-elem">
                 <div>
-                  <img class="img-cards" src="img/card5.svg" alt="card" />
+                  <img
+                    class="img-responsive"
+                    class="img-cards"
+                    src="img/card5.png"
+                    alt="card"
+                  />
                 </div>
                 <h2>Blushing Bromeliad</h2>
                 <p>$139.00</p>
+                <ul class="box-share">
+                  <li>
+                    <button type="button">
+                      <img src="img/basketgreen2.svg" alt="basket" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/heart.svg" alt="like" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/dandruff.svg" alt="dandruff2" />
+                    </button>
+                  </li>
+                </ul>
               </div>
             </article>
             <article class="cards">
               <div class="cards-elem">
                 <div>
-                  <img class="img-cards" src="img/card6.svg" alt="card" />
+                  <img
+                    class="img-responsive"
+                    class="img-cards"
+                    src="img/card6.png"
+                    alt="card"
+                  />
                 </div>
                 <h2>Aluminum Plant</h2>
                 <p>$179.00</p>
+                <ul class="box-share">
+                  <li>
+                    <button type="button">
+                      <img src="img/basketgreen2.svg" alt="basket" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/heart.svg" alt="like" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/dandruff.svg" alt="dandruff2" />
+                    </button>
+                  </li>
+                </ul>
               </div>
             </article>
             <article class="cards">
               <div class="cards-elem">
                 <div>
-                  <img class="img-cards" src="img/card7.svg" alt="card" />
+                  <img
+                    class="img-responsive"
+                    class="img-cards"
+                    src="img/card7.png"
+                    alt="card"
+                  />
                 </div>
                 <h2>Bird's Nest Fern</h2>
                 <p>$99.00</p>
+                <ul class="box-share">
+                  <li>
+                    <button type="button">
+                      <img src="img/basketgreen2.svg" alt="basket" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/heart.svg" alt="like" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/dandruff.svg" alt="dandruff2" />
+                    </button>
+                  </li>
+                </ul>
               </div>
             </article>
             <article class="cards">
               <div class="cards-elem">
                 <div>
-                  <img class="img-cards" src="img/card8.svg" alt="card" />
+                  <img
+                    class="img-responsive"
+                    class="img-cards"
+                    src="img/card8.png"
+                    alt="card"
+                  />
                 </div>
                 <h2>Broadleaf Lady Palm</h2>
                 <p>$59.00</p>
+                <ul class="box-share">
+                  <li>
+                    <button type="button">
+                      <img src="img/basketgreen2.svg" alt="basket" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/heart.svg" alt="like" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/dandruff.svg" alt="dandruff2" />
+                    </button>
+                  </li>
+                </ul>
               </div>
             </article>
             <article class="cards">
               <div class="cards-elem">
                 <div>
-                  <img class="img-cards" src="img/card9.svg" alt="card" />
+                  <img
+                    class="img-responsive"
+                    class="img-cards"
+                    src="img/card9.png"
+                    alt="card"
+                  />
                 </div>
                 <h2>Chinese Evergreen</h2>
                 <p>$39.00</p>
+                <ul class="box-share">
+                  <li>
+                    <button type="button">
+                      <img src="img/basketgreen2.svg" alt="basket" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/heart.svg" alt="like" />
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button">
+                      <img src="img/dandruff.svg" alt="dandruff2" />
+                    </button>
+                  </li>
+                </ul>
               </div>
             </article>
           </section>
+        </div>
+      </main>
+
+      <main class="down">
+        <div class="down-page">
+          <section class="page-next">
+            <ul class="page-menu">
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li>
+                <a href="#">
+                  <img src="img/arrowright.svg" alt="choice" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="down-find-more">
+          <section class="find-more">
+            <div class="cards-box">
+              <div class="img-cards">
+                <img
+                  class="img-responsive"
+                  src="img/cardsbox1.png"
+                  alt="flower"
+                />
+              </div>
+              <div class="box-text">
+                <h2>Summer cactus & succulents</h2>
+                <p>
+                  We are an online plant shop offering a wide range of cheap and
+                  trendy plants
+                </p>
+                <a href="#"
+                  >Find More
+                  <img src="img/arrowright2.svg" alt="arrowright" />
+                </a>
+              </div>
+            </div>
+            <div class="cards-box">
+              <div class="img-cards">
+                <img
+                  class="img-responsive"
+                  src="img/cardsbox2.png"
+                  alt="flower"
+                />
+              </div>
+              <div class="box-text">
+                <h2>Styling Trends & much more</h2>
+                <p>
+                  We are an online plant shop offering a wide range of cheap and
+                  trendy plants
+                </p>
+                <a href="#"
+                  >Find More
+                  <img src="img/arrowright2.svg" alt="arrowright" />
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="our-blog-posts-title">
+          <h1>Our Blog Posts</h1>
+          <p>
+            We are an online plant shop offering a wide range of cheap and
+            trendy plants.
+          </p>
+        </div>
+
+        <div class="down-our-blog-posts">
+          <div class="box-posts">
+            <div>
+              <img
+                class="img-responsive"
+                src="img/cardsbox3.png"
+                alt="flower bottom"
+              />
+            </div>
+            <div class="box-posts-title">
+              <h4>September 12 I Read in 6 minutes</h4>
+              <h3>Cactus & Succulent Care Tips</h3>
+              <p>
+                Cacti are succulents are easy care plants for any home or patio.
+              </p>
+              <a href="#"
+                >Read More
+                <img src="img/arrowrightbottom.svg" alt="arrowright" />
+              </a>
+            </div>
+          </div>
+          <div class="box-posts">
+            <div>
+              <img
+                class="img-responsive"
+                src="img/cardsbox4.png"
+                alt="flower bottom"
+              />
+            </div>
+            <div class="box-posts-title">
+              <h4>September 12 I Read in 6 minutes</h4>
+              <h3>Cactus & Succulent Care Tips</h3>
+              <p>
+                Cacti are succulents are easy care plants for any home or patio.
+              </p>
+              <a href="#"
+                >Read More
+                <img src="img/arrowrightbottom.svg" alt="arrowright" />
+              </a>
+            </div>
+          </div>
+          <div class="box-posts">
+            <div>
+              <img
+                class="img-responsive"
+                src="img/cardsbox5.png"
+                alt="flower bottom"
+              />
+            </div>
+            <div class="box-posts-title">
+              <h4>September 12 I Read in 6 minutes</h4>
+              <h3>Cactus & Succulent Care Tips</h3>
+              <p>
+                Cacti are succulents are easy care plants for any home or patio.
+              </p>
+              <a href="#"
+                >Read More
+                <img src="img/arrowrightbottom.svg" alt="arrowright" />
+              </a>
+            </div>
+          </div>
+          <div class="box-posts">
+            <div>
+              <img
+                class="img-responsive"
+                src="img/cardsbox6.png"
+                alt="flower bottom"
+              />
+            </div>
+            <div class="box-posts-title">
+              <h4>September 12 I Read in 6 minutes</h4>
+              <h3>Cactus & Succulent Care Tips</h3>
+              <p>
+                Cacti are succulents are easy care plants for any home or patio.
+              </p>
+              <a href="#"
+                >Read More
+                <img src="img/arrowrightbottom.svg" alt="arrowright" />
+              </a>
+            </div>
+          </div>
         </div>
       </main>
     </div>

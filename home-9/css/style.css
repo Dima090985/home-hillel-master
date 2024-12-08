@@ -143,10 +143,10 @@
 .menu-centr a:hover {
 	border-bottom: 3px solid #46A358;
 	font-weight: bold;
-	padding-bottom: 32px;
+	padding-bottom: 35px;
 }
 
-.logoright div {
+.logoright {
 	display: flex;
 	align-content: center;
 }
@@ -155,14 +155,14 @@
 	border-radius: 6px;
 	background-color: #46A358;
 	color: #ffffff;
-	padding: 5px 17px;
-	margin-left: 15px;
+	padding: 5px 15px;
+	margin-left: 30px;
 	cursor: pointer;
 }
 
 .logoright a {
 	text-decoration: none;
-	padding: 0 15px;
+	padding: 4px 15px;
 }
 
 .basket-count{
@@ -177,7 +177,7 @@
 	background-color: #46A358;
 	position: absolute;
 	border: 2px solid #ffffff;
-	right: 16px;
+	right: -15px;
 	top: 0;
 	display: flex;
 	justify-content: center;
@@ -192,19 +192,16 @@
    padding: 0 5px;
 }
 /*                       section  box                        */
-.box {
-	background-color: #fbfbfb;
-}
+
 .header-box {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 12px;
-	
+	background-color: #fbfbfb;
 }
 .box-text-silk{
-	width: 547px;
+	max-width: 547px;
 	padding-left: 40px;
-	list-style: none;
 }
 .box-text-silk h3{
 	font-weight: 500;
@@ -445,10 +442,13 @@
 	display: inline;
 	
 }
-.box-share button{
+.box-share .button-shere{
 	cursor: pointer;
 	border: none;
 	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 35px;
 	height: 35px;
 }
@@ -467,7 +467,9 @@
 .cards-elem:hover .box-share {
 	display: flex;
 }
-
+.button-shere:hover path {
+	fill: #46A358;
+}
 
 .sale{
 	font-weight: normal;
@@ -489,7 +491,7 @@
 }
 
 
-.cards h2 {
+.cards h3 {
 	display: flex;
 	color: #3D3D3D;
 	font-weight: normal;
@@ -641,6 +643,10 @@
 	padding: 0 10px;
 	
 }
+.box-posts img{
+	display: block;
+	
+}
 
 .box-posts-title {
 	padding: 15px 15px;
@@ -670,17 +676,26 @@
 	padding-bottom: 7px;
 }
 
-.box-posts-title a {
+.silks {
+	display: flex;
 	text-decoration: none;
+	align-items: center;
 	color: #3D3D3D;
 	font-weight: bold;
+	padding-right: 10px;
 }
-.box-posts-title a:hover {
+.silks p{
+	font-weight: bold;
+	padding-right: 5px;
+	padding-bottom: 0;
+}
+
+.silks:hover path{
+	fill: #46A358;
+}
+.silks p:hover {
 	color: #46A358;
 }
-.box-posts-title img {
-	display: inline-block;
-	vertical-align: middle;
-}
+
 
 

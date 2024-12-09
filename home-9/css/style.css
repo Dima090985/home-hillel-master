@@ -151,13 +151,22 @@
 	align-content: center;
 }
 .logoright button {
+	width: 100px;
 	border: 1px solid #46A358;
 	border-radius: 6px;
 	background-color: #46A358;
-	color: #ffffff;
 	padding: 5px 15px;
-	margin-left: 30px;
+	margin-left: 15px;
 	cursor: pointer;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	color: #ffffff;
+	
+}
+
+.log {
+	padding-left: 5px;
 }
 
 .logoright a {
@@ -169,6 +178,7 @@
 	width: 24px;
 	height: 24px;
 	position: relative;
+	margin-right: 15px;
 }
 .count {
 	width: 16px;
@@ -184,6 +194,7 @@
 	align-items: center;
 	font-size: 10px;
 	color: #ffffff;
+	
 }
 
 .logoright img {
@@ -562,10 +573,10 @@
 	padding: 0 10px;
 	display: flex;
 	justify-content: space-between;
-	padding: 0 10px;
 }
 
 .box-text {
+	width: 50%;
 	font-weight: normal;
 	background-color:  #fbfbfb;
 	margin-top: 52px;
@@ -587,23 +598,34 @@
 	font-size: 14px;
 	color: #3D3D3D;
 	line-height: 1.5;
-	margin-bottom: 25px;
+	padding-bottom: 25px;
 	margin-top: 0px;
 }
-.box-text a {
-	font-size: 14px;
+
+.arrowright-text {
 	border: 1px solid #46A358;
-	border-radius: 5px;
+	border-radius: 6px;
 	background-color: #46A358;
-	color: #FFFFFF;
+	padding: 11px 19px;
+	margin-left: 145px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	color: #ffffff;
 	text-decoration: none;
-	padding: 11px 28px;
 }
 
-.box-text img {
-	display: inline-block;
-	vertical-align: middle;
+.arrowright-text p {
+	font-weight: bold;
+	padding-right: 5px;
+	color: #ffffff;
+	padding-bottom: 0;
 }
+
+
+
+
 
 /*                   section next our-blog-posts                     */
 

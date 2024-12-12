@@ -121,38 +121,35 @@
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 0.3px solid #46A358;
-	/* padding-bottom: 25px; */
 }
 
 .menu-centr {
 	display: flex;
 	padding-left: 0;
 	list-style: none;
-	
-	
 }
 .menu-centr li{
-	padding: 0 25px;
+	padding: 15px 0px;
+	margin: 0 25px;
 	position: relative;
-	
+	border-bottom: 3px solid transparent;
 }
 
 .menu-centr > li > button{
 	cursor: pointer;
 	background-color: transparent;
-	text-decoration: none;
 	color: #3d3d3d;
 	font-size: 16px;
-	font-weight: 400;
 	border: none;
-	font-family: inherit;
 	padding: 0;
+	text-decoration: none;
+	font-family: inherit;
 }
 
-.menu-centr > li:hover > button {
+
+.menu-centr > li:hover {
 	border-bottom: 3px solid #46A358;
 	font-weight: bold;
-	padding-bottom: 29px;
 }
 /*                     submenu                         */
 
@@ -160,8 +157,8 @@
 	display: none;
 	width: 188px;
 	position: absolute;
-	left: 26px;
-	top: 55px;
+	left: 0;
+	top: 53px;
 	background-color: #EDF6EE;
 	padding-left: 0;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -182,30 +179,25 @@
 	font-size: 16px;
 	list-style: none;
 	padding: 4px 0 4px 14px;
+	border-bottom: none;
+	margin: 0;
 }
 
-.child-menu > li > a {
-	text-decoration: none;
+.child-menu > li > button {
 	color: #3D3D3D;
 	font-size: 16px;
 	font-weight: 400;
+	cursor: pointer;
+	background-color: transparent;
+	text-decoration: none;
+	border: none;
+	font-family: inherit;
+	padding: 0;
 }
 
 .menu-centr > li:hover .child-menu{
 	display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*                     submenu                         */
 .logoright {
